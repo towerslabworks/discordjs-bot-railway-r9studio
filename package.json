@@ -1,0 +1,22 @@
+{
+  "name": "discordjs-bot-railway-template",
+  "version": "1.0.0",
+  "description": "Discord Bot using Discord.js for deployment to Railway.com hosting service",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "register-commands": "node register-commands.js"
+  },
+  "author": "Dash Desai",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "eslint": "^9.30.0",
+    "nodemon": "^3.1.10"
+  }
+}
