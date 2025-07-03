@@ -30,6 +30,7 @@ Additionally, the boilerplate includes the following:
 ## To deploy to railway.com
 
 - Create an empty project on railway.com
+- Setup variables as per the .env.example file using railway.com UI
 - Execute commands within `Setup your project locally` (see overlay on bottom left)
 - To publish use `railway up`
 - You can safely ignore the `` Use `--omit=dev` `` warning in deploy logs i.e
